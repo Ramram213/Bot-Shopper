@@ -55,9 +55,9 @@ async function addToCart(page) {
         console.error("Failed to add to cart:", error);
     }
 }
-
-const email = 'ramram33@icloud.com';
-const password = 'Supersam33';
+//enter your Amazon email and password
+const email = 'Example@email.com';
+const password = 'pasword';
 
 async function signIn(page) {
     try {
